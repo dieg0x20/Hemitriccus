@@ -14,7 +14,7 @@ def bin_to_message(binary_message):
 def encode_message(image_path, message, output_image_path):
     img = Image.open(image_path)
     img = img.convert('RGB')
-    pixels = img.load()  # Corrigido o nome da variável
+    pixels = img.load() 
 
     bin_message = message_to_bin(message) + '11111111'
     print("Mensagem binária: ", bin_message)
