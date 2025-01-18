@@ -1,3 +1,6 @@
+# Author -> dieg0x20
+# Script de esteganografia em python usando a tecnica de LSB
+# Instale os requerimentos necessarios para rodar o arquivo com o camando pip install requirements.txt
 from PIL import Image
 import os
 
@@ -55,7 +58,7 @@ def decode_message(image_path):
         return "Nenhuma menssage encontrada"
 
 def main():
-    image_path = input("Digite o caminho da imagem: ")  # Solicita o caminho da imagem
+    image_path = input("Digite o caminho da imagem: ")
 
     if not os.path.exists(image_path):
         print("Imagem não encontrada.")
