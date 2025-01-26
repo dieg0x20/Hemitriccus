@@ -1,8 +1,6 @@
 # Hemitriccus
 
----
-
-# Esteganografia LSB em Imagens
+## Esteganografia LSB em Imagens
 
 Este projeto implementa a técnica de **Esteganografia LSB (Least Significant Bit)** para esconder e revelar mensagens dentro de imagens. A esteganografia LSB é uma técnica que modifica o bit menos significativo (LSB) de cada componente de cor de um pixel em uma imagem, permitindo armazenar dados sem afetar significativamente a aparência da imagem.
 
@@ -69,5 +67,4 @@ A técnica de **esteganografia LSB** (Least Significant Bit) modifica os bits me
 
 - [Hacking na Web - Esteganografia por LSB](https://hackingnaweb.com/criptografia/esteganografia-por-lsb/)
 
----
 
